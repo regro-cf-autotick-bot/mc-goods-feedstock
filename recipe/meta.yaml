@@ -24,8 +24,6 @@ requirements:
   run:
     - python >=3.6
     - intake
-    - numpy
-    - requests
 
 test:
   imports:
