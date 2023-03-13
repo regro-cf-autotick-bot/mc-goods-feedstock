@@ -1,11 +1,11 @@
-About mc-goods
-==============
+About mc-goods-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mc-goods-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/axiom-data-science/mc-goods
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mc-goods-feedstock/blob/main/LICENSE.txt)
 
 Summary: model_catalogs catalogs for GOODS
 

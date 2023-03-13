@@ -1,5 +1,5 @@
 {% set name = "mc-goods" %}
-{% set version = "1.0.3" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mc_goods-{{ version }}.tar.gz
-  sha256: 027b00f3dcfe90f9148f57ec82a0ccc3c06b861d2b2e8e440902edb71ddeb0d6
+  sha256: 70b48e33ad0fb0fc09a470c01b0ec5ea230cf46f2322f960ddafa79c002aeca0
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
   run:
     - python >=3.6
     - intake
+    - model_catalogs
 
 test:
   imports:
