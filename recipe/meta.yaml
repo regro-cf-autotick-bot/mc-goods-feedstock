@@ -1,5 +1,5 @@
 {% set name = "mc-goods" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mc_goods-{{ version }}.tar.gz
-  sha256: 70b48e33ad0fb0fc09a470c01b0ec5ea230cf46f2322f960ddafa79c002aeca0
+  sha256: 3544c5be5459475bb3b9397f057dfa7f709f76bb94b4131851e17266513903d8
 
 build:
   noarch: python
